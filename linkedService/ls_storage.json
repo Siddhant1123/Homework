@@ -1,0 +1,19 @@
+{
+	"name": "ls_storage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://newdev.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_keyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "key-secret",
+				"secretVersion": "41ce95977ac84074b086bb1c2d6b91f7"
+			}
+		}
+	}
+}
