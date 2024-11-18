@@ -1,0 +1,10 @@
+{
+	"name": "ls_kc_dev1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://devkv1.vault.azure.net/"
+		}
+	}
+}
